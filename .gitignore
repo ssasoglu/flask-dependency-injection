@@ -1,0 +1,51 @@
+node_modules/
+**/.venv/
+./Output/
+.idea/
+
+# CDK asset staging directory
+.cdk.staging/
+cdk.out/
+
+# Parcel build directories
+.cache/
+.build/
+
+# Build directories
+dist/
+
+.vscode/
+.DS_Store
+.pytest_cache
+
+## Python ##
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Packaging
+ebe-processors-ep-post-processors-0.1.0.tgz
